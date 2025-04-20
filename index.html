@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniro - Furniture Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-3">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="image/logo.png" alt="logo" width="30">
+      <span class="ms-2">Furniro</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="d-flex gap-3">
+      <i class="bi bi-person"></i>
+      <i class="bi bi-search"></i>
+      <i class="bi bi-heart"></i>
+      <i class="bi bi-cart"></i>
+    </div>
+  </nav>
+
+<section class="position-relative bg-light">
+  <img src="image/backgroundimg.png" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;" />
+
+  <div class="position-absolute top-50 end-0 translate-middle-y bg-warning-subtle p-5 rounded shadow me-5"
+       style="max-width: 550px; padding: 3rem 4rem;">
+    <p class="text-muted mb-1 fs-5">New Arrival</p>
+    <h2 class="fw-bold display-6">Discover Our New Collection</h2>
+    <p class="mb-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+    <a href="#" class="btn btn-warning btn-lg">BUY NOW</a>
+  </div>
+</section>
+
+  <section class="text-center my-5 px-4">
+    <h2>Browse The Range</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row justify-content-center mt-4 browse-images">
+      <div class="col-6 col-md-3">
+        <img src="image/dining.png" class="img-fluid" />
+        <p>Dining</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="image/living.png" class="img-fluid" />
+        <p>Living</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="image/bedroom.png" class="img-fluid" />
+        <p>Bedroom</p>
+      </div>
+    </div>
+  </section>
+ <section class="text-center px-4 py-5">
+    <h2>Our Products</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+
+      <div class="col">
+        <div class="card product-card">
+          <img src="image/our_Products/chair.png" class="card-img-top" alt="Stylish Cafe Chair">
+          <div class="product-overlay">
+            <button class="btn btn-warning btn-sm">Add to Cart</button>
+            <div class="d-flex">
+              <i class="bi bi-share" title="Share"></i>
+              <i class="bi bi-heart ms-3" title="Like"></i>
+              <i class="bi bi-bar-chart ms-3" title="Compare"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Stylish Cafe Chair</h5>
+            <p class="card-text">Rp 2.500.000</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card">
+          <img src="image/our_Products/chair2.png" class="card-img-top" alt="Stylish Cafe Chair">
+          <div class="product-overlay">
+            <button class="btn btn-warning btn-sm">Add to Cart</button>
+            <div class="d-flex">
+              <i class="bi bi-share" title="Share"></i>
+              <i class="bi bi-heart ms-3" title="Like"></i>
+              <i class="bi bi-bar-chart ms-3" title="Compare"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Stylish Cafe Chair</h5>
+            <p class="card-text">Rp 7.000.000</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card product-card">
+          <img src="image/our_Products/modernSofa.png" class="card-img-top" alt="Luxury Big Sofa">
+          <div class="product-overlay">
+            <button class="btn btn-warning btn-sm">Add to Cart</button>
+            <div class="d-flex">
+              <i class="bi bi-share" title="Share"></i>
+              <i class="bi bi-heart ms-3" title="Like"></i>
+              <i class="bi bi-bar-chart ms-3" title="Compare"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Luxury Big Sofa</h5>
+            <p class="card-text">Rp 1.500.000</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card">
+          <img src="image/our_Products/tableandstool.png" class="card-img-top" alt="Outdooor bar table and stool">
+          <div class="product-overlay">
+            <button class="btn btn-warning btn-sm">Add to Cart</button>
+            <div class="d-flex">
+              <i class="bi bi-share" title="Share"></i>
+              <i class="bi bi-heart ms-3" title="Like"></i>
+              <i class="bi bi-bar-chart ms-3" title="Compare"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Outdooor table</h5>
+            <p class="card-text">Rp 150.000</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="px-5 py-5 mt-5 bg-light d-flex flex-wrap justify-content-between align-items-center">
+    <div class="mb-3" style="max-width: 500px;">
+      <h2 class="fw-bold">50+ Beautiful Rooms Inspiration</h2>
+      <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+      <a href="#" class="btn btn-outline-warning">Explore More</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696" class="img-fluid" style="max-height: 400px;" />
+  </section>
+
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3">
+        <h5 class="fw-bold">Furniro.</h5>
+        <p class="small">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+      </div>
+      <div class="col-md-2">
+        <h6 class="fw-bold">Links</h6>
+        <ul class="list-unstyled small">
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6 class="fw-bold">Help</h6>
+        <ul class="list-unstyled small">
+          <li>Payment Options</li>
+          <li>Returns</li>
+          <li>Privacy Policies</li>
+        </ul>
+      </div>
+      <div class="col-md-4 offset-md-1">
+        <h6 class="fw-bold">Newsletter</h6>
+        <input type="email" class="form-control mb-2" placeholder="Enter your email address">
+        <button class="btn btn-warning btn-sm">Subscribe</button>
+      </div>
+    </div>
+    <hr class="border-light">
+    <p class="text-center small mb-0">© 2023 Furniro. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
